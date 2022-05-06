@@ -156,7 +156,6 @@ footer{
     max-width: 100%;
     bottom: 0;
     min-height: 130px;
-    margin: 0 auto;
     border-radius: 10px 10px 10px 10px;
     background: rgba(112, 110, 110, 0.26);
     color: rgb(0, 0, 0);
@@ -178,11 +177,7 @@ footer{
     display: grid;
     padding: 1rem;
     min-height: 600px;
-    grid-template-columns: 40% 45% 35%;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 400px 400px 400px;
-    grid-template-rows: 400px 400px 400px;
-    grid-template-rows: 10fr 10fr 10fr;
     grid-template-rows: 300px 300px 300px;
     grid-template-areas: 
     "hijo1 elem2 elem2"
@@ -272,17 +267,18 @@ footer{
 .producto_vendido-1 img {
     height: 300px;
     width: 220px;
-    padding: 5rem;
+    padding: 2rem;
+    
    
 }
 .ofertas1 {
-    position: absolute;
+    position: relative;
     background-color: rgba(17, 160, 4, 0.829);
     color: rgb(255, 255, 255);
     padding: 0.3rem 1rem;
 }
 .ofertas2 {
-    position: absolute;
+    position: relative;
     background-color: rgba(17, 160, 4, 0.829);
     color: rgb(255, 255, 255);
     padding: 0.3rem 1rem;
@@ -402,7 +398,6 @@ footer{
     }
     .seccion{
         width: 100%;
-        margin: 10px;
         
         
     }
@@ -414,7 +409,6 @@ footer{
     .local{
         display:inline-flex;
         align-items:center;
-        height: 250px;
         margin: 0.5rem;
         border: 0.5rem;
         border-radius: 10px; 
