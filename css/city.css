@@ -258,7 +258,7 @@ footer{
 .producto_vendido{
     text-align: center;
     color: white; 
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 30px;
     background-color: rgb(5, 134, 16);
 }
@@ -267,7 +267,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 1rem;
+    
 }
 .producto_vendido-1 img {
     height: 300px;
@@ -295,11 +295,10 @@ footer{
 
 @media screen and (max-width: 1023px){
     header {
-        flex-direction: row;
+        display: flex;
     }
     h1{
-        font-size: 30px;
-        margin-bottom: 5px;
+        font-size: 10px;
     }
     .grid{
         min-height: 300px;
@@ -310,10 +309,7 @@ footer{
     nav {
         display: none;
     }
-    h1 {
-        font-size: 15px;
-        
-    }
+   
     h2{
         font-size: 15px;
         background: none;
@@ -321,7 +317,7 @@ footer{
     }
     .barra_navegacion{
         display: flex;
-        font-size: 70px;
+        font-size: 40px;
         color: black;
         cursor: pointer;
     }
@@ -341,7 +337,7 @@ footer{
         height: 300px;
         margin: 0.5rem;
         border: 0.5rem;
-        border-radius: 10px; 
+        border-radius: 1px; 
     }
     p{
         font-size: 15px;
@@ -369,25 +365,24 @@ footer{
 @media screen and (max-width: 600px){
     .logo{
         flex-direction: row;
+        
+        
+        
     }
     nav {
         display: none;
     }
     h1 {
-        font-size: 15px;
-        border: 1px rgb(0, 138, 73);
-        text-align: center;
-        background-color: rgb(5, 134, 16);
-        margin-bottom: 3px;
-        padding: 0.2rem 1rem;
         font-size: 10px;
-    
+        
+        
     }
     .grid{
         min-height: 300px;
-        grid-template-columns: 100px 100px 100px;
-        grid-template-rows: 100px 100px 100px;
+        grid-template-columns: 95px 95px 95px;
+        grid-template-rows: 110px 110px 110px;
         height: 100%;
+       
 
     }
     h2{
@@ -395,6 +390,7 @@ footer{
     }
     h3{
         font-size: 20px;
+        
     }
     .grid_texto{
         position: absolute;
@@ -402,14 +398,18 @@ footer{
         right: 0;
         background-color: rgba(12, 11, 11, 0.829);
         color: rgb(255, 255, 255);
-        font-size: 10px;
+        font-size: 5px;
     }
     .seccion{
         width: 100%;
-        padding: 0.5rem;
+        margin: 10px;
+        
+        
     }
     .producto_vendido{
         font-size: 15px;
+        text-align: center;
+       
     }
     .local{
         display:inline-flex;
@@ -425,9 +425,39 @@ footer{
 
     
     header {
-        flex-direction:row;
+        display: flex;
+        justify-content: center;
+        
+
+        
+        
     }
-  
+    .whatsapp {
+        position: fixed;
+        color: #fff;
+        background-color: forestgreen;
+        text-decoration: none;
+        padding: 1px;
+        position: fixed;
+        bottom: 1rem;
+        right: 2rem;
+        font-size: 15px;
+}
+
+
+.barra_navegacion{
+    display: flex;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+    
     
     
 
