@@ -82,12 +82,11 @@ h1 {
     
 }
 h2 {
-    background-color: gray;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 20px;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
     
 
@@ -318,6 +317,12 @@ transform:scale(0.99) ;
     transition: all 500ms ease-out;
     transform: scale(0.98);
 }
+.carousel-inner {
+    padding-bottom: 1rem;
+}
+.col-12{
+    padding-bottom: 1rem;
+}
     
 
     
@@ -362,14 +367,7 @@ transform:scale(0.99) ;
         display: none;
     }
 
-    .local{
-        display:inline-flex;
-        align-items:center;
-        height: 300px;
-        margin: 0.5rem;
-        border: 0.5rem;
-        border-radius: 1px; 
-    }
+     
     p{
         font-size: 15px;
     }
@@ -428,7 +426,7 @@ transform:scale(0.99) ;
 
     }
     h2{
-        font-size: 15px;
+        font-size: 20px;
     }
     h3{
         font-size: 20px;
