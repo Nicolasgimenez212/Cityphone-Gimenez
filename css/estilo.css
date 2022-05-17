@@ -120,14 +120,14 @@ h4 {
   justify-content: center;
 }
 
+.producto {
+  margin: 30px;
+}
+
 .producto img {
   height: 300px;
   width: 220px;
   border-radius: 30px;
-}
-
-.producto {
-  margin: 30px;
 }
 
 .producto p {
@@ -259,7 +259,7 @@ footer {
   transform: scale(0.98);
 }
 
-producto_vendido {
+.producto_vendido {
   text-align: center;
   color: white;
   margin-top: 5px;
