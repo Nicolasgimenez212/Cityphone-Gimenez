@@ -13,7 +13,7 @@ h1 {
   .whatsapp {
     position: fixed;
     color: #fff;
-    background-color: forestgreen;
+    background-color:$color-principal;
     text-decoration: none;
     position: fixed;
     bottom: 1rem;
@@ -206,7 +206,7 @@ h1 {
     color: white;
     margin-top: 5px;
     font-size: 30px;
-    background-color: #058610;
+    background-color: $color-principal;
   }
   
   .card {
