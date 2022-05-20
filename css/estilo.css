@@ -371,6 +371,11 @@ h2 {
   color: black;
 }
 
+h3 {
+  font-size: 20px;
+  font-style: inherit;
+}
+
 body {
   padding: 15px;
   font-family: sans-serif;
@@ -609,6 +614,26 @@ footer {
 
 .col-12 {
   padding-bottom: 1rem;
+}
+
+.comentario {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  padding: 20px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1023px) {

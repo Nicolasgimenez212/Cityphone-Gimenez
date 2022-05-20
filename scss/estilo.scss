@@ -96,6 +96,10 @@ h2 {
     padding: 20px;
     color: rgb(0, 0, 0);
 }
+h3{
+    font-size: 20px;
+    font-style: inherit;
+}
     
 
    
@@ -331,6 +335,25 @@ transform:scale(0.99) ;
 .col-12{
     padding-bottom: 1rem;
 }
+.comentario{
+    display: flex;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 20px;
+    width: 100%;
+}
+
     
 
     
@@ -404,7 +427,6 @@ transform:scale(0.99) ;
     padding: 0;
     position:static;
 }
-   
 
 
 }
@@ -503,8 +525,5 @@ body {
     display: flex;
     flex-direction: column;
 }
-    
-    
-    
 
 }
