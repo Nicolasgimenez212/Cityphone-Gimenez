@@ -1,0 +1,7 @@
+@mixin city ($width,$height){
+    height: $height;
+    width: $width;
+}
+.producto img {
+    @include city(220px, 300px)
+}

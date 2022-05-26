@@ -1,0 +1,10 @@
+$redes:(
+    instagram: orange,
+    facebook: blue,
+    whatsapp: forestgreen,
+);
+@each $clave, $valor in $redes {
+    .instagram-#{$clave} {
+        background-color: $valor;
+    }
+}

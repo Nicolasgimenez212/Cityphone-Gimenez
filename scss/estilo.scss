@@ -1,6 +1,8 @@
 @import "parciales/_variables.scss";
 @import "parciales/_header.scss";
 @import "parciales/_index.scss";
+@import "parciales/_mixin.scss";
+@import "parciales/_mapas.scss";
 
 *{
     margin: 0;
@@ -143,8 +145,8 @@ h4{
     justify-content: center;
 }
 .producto img{
-    height: 300px;
-    width: 220px;
+    height: 250px;
+    width: 250px;
     border-radius: 30px;
 }
 .producto{
@@ -353,6 +355,23 @@ textarea {
     padding: 20px;
     width: 100%;
 }
+$redes:(
+    instagram: orange,
+    facebook: blue,
+    whatsapp: forestgreen,
+);
+@each $clave, $valor in $redes {
+    .instagram-#{$clave} {
+        background-color: $valor;
+    }
+}
+@mixin city ($width,$height){
+    height: $height;
+    width: $width;
+}
+.producto img {
+    @include city(220px, 300px)
+}
 
     
 
@@ -527,3 +546,4 @@ body {
 }
 
 }
+
