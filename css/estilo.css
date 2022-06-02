@@ -289,11 +289,7 @@ footer {
   background-color: forestgreen;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
+
 
 header {
   display: flex;
@@ -305,33 +301,6 @@ header {
   align-items: center;
 }
 
-ul {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 0%;
-}
-
-ul li {
-  display: inline-block;
-  padding: 1.5rem 2rem;
-}
-
-ul li a {
-  color: rgba(0, 0, 0, 0.897);
-  padding: 10px;
-  font-family: sans-serif;
-  transition: all 500ms ease;
-}
-
-ul li a:hover {
-  background-color: rgba(11, 163, 26, 0.528);
-  color: black;
-}
-
-a {
-  text-decoration: none;
-  text-align: center;
-}
 
 .logo {
   display: flex;
