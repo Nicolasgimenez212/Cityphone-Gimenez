@@ -678,7 +678,7 @@ textarea {
     transition: right 1s;
   }
   #lateral:target {
-    right: 0;
+    right: 1;
     color: #fff;
   }
   .nav_lista {
