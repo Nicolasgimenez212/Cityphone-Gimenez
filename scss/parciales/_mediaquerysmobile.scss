@@ -1,0 +1,138 @@
+@media screen and (max-width: 600px){
+    .logo{
+        flex-direction: row;
+        
+        
+        
+    }
+    nav{
+        display: none;
+    }
+   
+    h1 {
+        font-size: 10px;
+    }
+    .navv{
+        display: block;
+        padding: 0;
+
+        &__enlace{
+            font-size: 28px;
+        }
+
+        &__lista{
+            flex-direction: column;
+            height: 100%;
+            justify-content: flex-start;
+            gap: 1rem;
+            padding: 0.5rem;
+        }
+
+        &_item{
+            margin-left: 0;
+
+            &--close{
+                display: block;
+            }
+        }
+    }
+
+    #lateral {
+        display: block;
+        background-color: #058610;
+        width: 80%;
+        height: 100vh;
+
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100 ;
+
+        transition: right 1s;
+
+        &:target{
+            right: 0;
+            color: #fff;
+        }
+    }
+    
+    .grid{
+        min-height: 300px;
+        grid-template-columns: 95px 95px 95px;
+        grid-template-rows: 110px 110px 110px;
+        height: 100%;
+       
+
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 20px;
+        
+    }
+    .grid_texto{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(12, 11, 11, 0.829);
+        color: rgb(255, 255, 255);
+        font-size: 5px;
+    }
+    .seccion{
+        width: 100%;
+        
+        
+    }
+    .producto_vendido{
+        font-size: 15px;
+        text-align: center;
+       
+    }
+    .local{
+        display:inline-flex;
+        align-items:center;
+        margin: 0.5rem;
+        border: 0.5rem;
+        border-radius: 10px; 
+    }
+    p{
+        font-size: 10px;
+    }
+
+    
+    header {
+        display: flex;
+        justify-content: center;
+        
+
+        
+        
+    }
+    .whatsapp {
+        position: fixed;
+        color: #fff;
+        background-color: forestgreen;
+        text-decoration: none;
+        padding: 1px;
+        position: fixed;
+        bottom: 1rem;
+        right: 2rem;
+        font-size: 15px;
+}
+
+
+.barra_navegacion{
+    display: flex;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+}

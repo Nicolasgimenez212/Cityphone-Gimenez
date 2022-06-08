@@ -3,6 +3,9 @@
 @import "parciales/_index.scss";
 @import "parciales/_mixin.scss";
 @import "parciales/_mapas.scss";
+@import "parciales/_mediaquerysmobile.scss";
+@import "parciales/_mediaquerystablet.scss";
+
 
 *{
     margin: 0;
@@ -26,27 +29,24 @@ header{
    
 
 }
-ul{
+.nav_lista{
     display: flex;
     gap: 1rem;
     margin-bottom: 0%;
-}
 
-ul li{
+
+   &.nav__enlace{
     display: inline-block;
     padding: 1.5rem 2rem;
+  }
 }
 
-ul li a{
-    color: rgba(0, 0, 0, 0.897);
-    padding: 10px;
-    font-family: sans-serif;
-    transition: all 500ms ease;
-    
-}
 ul li a:hover{
     background-color: rgba(11, 163, 26, 0.528);
     color: black;
+}
+.jam-close{
+    display: none;
 }
 
 a{
@@ -355,6 +355,7 @@ textarea {
     padding: 20px;
     width: 100%;
 }
+
 $redes:(
     instagram: orange,
     facebook: blue,
@@ -386,34 +387,55 @@ $redes:(
     h1{
         font-size: 10px;
     }
-    #lateral{
+    .navv{
         display: block;
-        background-color: rgb(5, 134, 16);
-        width: 80%;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        z-index: 100;
-        transition: right 1s;
-       
-        &:target {
-        right: 1;
-        color: #fff;
-    }
-   }
-    .nav_lista{
-        flex-direction: column;
-        display: flex;
-        align-items: normal;
-        margin-bottom: 0;
-    }
-    .nav_item {
-        margin-left: 0;
-    }
-    .nav_item--close{
-        display: block;
+        padding: 0;
+
+        &__enlace{
+            font-size: 28px;
+        }
+
+        &__lista{
+            flex-direction: column;
+            height: 100%;
+            justify-content: flex-start;
+            gap: 1rem;
+            padding: 0.5rem;
+        }
+
+        &_item{
+            margin-left: 0;
+
+            &--close{
+                display: block;
+                color: black;
+            }
+        }
     }
 
+    #lateral {
+        display: block;
+        background-color: #058610;
+        width: 80%;
+        height: 100vh;
+
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100 ;
+
+        transition: right 1s;
+
+        &:target{
+            right: 0;
+            color: rgb(0, 0, 0);
+        }
+    }
+    .jam-close{
+        display: block;
+        font-size: 30px;
+    }
+    
 
     .grid{
         min-height: 300px;
@@ -421,8 +443,8 @@ $redes:(
         grid-template-rows: 200px 200px 200px;
 
     }
-    nav {
-        display: none;
+    ul {
+        flex-direction: column;
     }
    
     h2{
@@ -506,7 +528,7 @@ $redes:(
         z-index: 100;
         transition: right 1s;
        
-        #lateral:target {
+          &:target {
         right: 1;
         color: #fff;
     }
