@@ -499,6 +499,22 @@ footer {
   }
 }
 
+.catalogo {
+  display: block;
+  padding: 1rem;
+  border: 5px solid rgba(0, 0, 0, 0.394);
+}
+
+.catalogo img {
+  width: 250px;
+  height: 250px;
+}
+
+.catalogo img:hover {
+  transition: all 500ms ease-out;
+  transform: scale(0.98);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -568,6 +584,7 @@ h1 {
   bottom: 1rem;
   right: 1rem;
   font-size: 30px;
+  z-index: 100;
 }
 
 .hola {
@@ -872,7 +889,7 @@ textarea {
     display: flex;
   }
   h1 {
-    font-size: 10px;
+    font-size: 20px;
   }
   .navv {
     display: block;
@@ -959,6 +976,7 @@ textarea {
     bottom: 1rem;
     right: 2rem;
     font-size: 25px;
+    z-index: 100;
   }
   .card img {
     width: 150px;
@@ -969,6 +987,9 @@ textarea {
     flex-direction: row;
     padding: 0;
     position: static;
+  }
+  .sobrenosotros {
+    font-size: 30px;
   }
 }
 
@@ -1047,6 +1068,7 @@ textarea {
     bottom: 1rem;
     right: 2rem;
     font-size: 15px;
+    z-index: 100;
   }
   .barra_navegacion {
     display: flex;
@@ -1058,6 +1080,9 @@ textarea {
   body {
     display: flex;
     flex-direction: column;
+  }
+  .sobrenosotros {
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=estilo.css.map */

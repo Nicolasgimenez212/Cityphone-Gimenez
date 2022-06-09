@@ -1,0 +1,14 @@
+.catalogo{
+    display: block;
+    padding: 1rem;
+    border: 5px solid rgba(0, 0, 0, 0.394);
+
+    & img{
+    width: 250px;
+    height: 250px;
+    }
+    & img:hover{
+    transition: all 500ms ease-out;
+    transform: scale(0.98);
+    }
+}

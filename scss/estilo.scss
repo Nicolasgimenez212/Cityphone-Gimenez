@@ -5,6 +5,8 @@
 @import "parciales/_mapas.scss";
 @import "parciales/_mediaquerysmobile.scss";
 @import "parciales/_mediaquerystablet.scss";
+@import "parciales/_catalogo.scss";
+
 
 
 *{
@@ -80,6 +82,7 @@ h1 {
     bottom: 1rem;
     right: 1rem;
     font-size: 30px;
+    z-index: 100;
 }
 
 .hola{
@@ -385,7 +388,7 @@ $redes:(
         display: flex;
     }
     h1{
-        font-size: 10px;
+        font-size: 20px;
     }
     .navv{
         display: block;
@@ -486,6 +489,7 @@ $redes:(
         bottom: 1rem;
         right: 2rem;
         font-size: 25px;
+        z-index: 100;
 }
 .card img {
     width: 150px;
@@ -497,7 +501,9 @@ $redes:(
     padding: 0;
     position:static;
 }
-
+.sobrenosotros{
+    font-size: 30px;
+}
 
 }
 
@@ -596,6 +602,7 @@ $redes:(
         bottom: 1rem;
         right: 2rem;
         font-size: 15px;
+        z-index: 100;
 }
 
 
@@ -610,6 +617,9 @@ $redes:(
 body {
     display: flex;
     flex-direction: column;
+}
+.sobrenosotros{
+    font-size: 20px;
 }
 
 }
