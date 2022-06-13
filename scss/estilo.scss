@@ -6,6 +6,7 @@
 @import "parciales/_mediaquerysmobile.scss";
 @import "parciales/_mediaquerystablet.scss";
 @import "parciales/_catalogo.scss";
+@import "parciales/_footer.scss";
 
 
 
@@ -81,8 +82,9 @@ h1 {
     position: fixed;
     bottom: 1rem;
     right: 1rem;
-    font-size: 30px;
+    font-size: 35px;
     z-index: 100;
+    border-radius: 120px;
 }
 
 .hola{
@@ -489,7 +491,7 @@ $redes:(
         position: fixed;
         bottom: 1rem;
         right: 2rem;
-        font-size: 30px;
+        font-size: 35px;
         z-index: 100;
 }
 .card img {
@@ -603,7 +605,7 @@ $redes:(
         position: fixed;
         bottom: 1rem;
         right: 2rem;
-        font-size: 20px;
+        font-size: 25px;
         z-index: 100;
 }
 
@@ -619,6 +621,8 @@ $redes:(
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 .sobrenosotros{
     font-size: 20px;
