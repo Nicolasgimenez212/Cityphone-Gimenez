@@ -454,6 +454,7 @@ $redes:(
         font-size: 15px;
         background: none;
         color: black;
+        background-color: #058610;
     }
     .barra_navegacion{
         display: flex;
@@ -549,6 +550,7 @@ $redes:(
     }
     h2{
         font-size: 20px;
+        background-color: #058610;
     }
     h3{
         font-size: 20px;
@@ -601,7 +603,7 @@ $redes:(
         position: fixed;
         bottom: 1rem;
         right: 2rem;
-        font-size: 15px;
+        font-size: 20px;
         z-index: 100;
 }
 
